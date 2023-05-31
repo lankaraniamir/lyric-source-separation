@@ -1,6 +1,6 @@
 # Lyric Source Separation
-Code for research paper "Using Synchronized Lyrics as a Novel Input into
-Vocal Isolation Models"
+Code for research paper ["Using Synchronized Lyrics as a Novel Input into
+Vocal Isolation Models"](https://github.com/lankaraniamir/lyric_source_separation/blob/main/Using%20Synchronized%20Lyrics%20as%20a%20Novel%20Input%20into%20Vocal%20Isolation%20Models.pdf)
 
 
 ## Project Summary:
