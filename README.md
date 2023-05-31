@@ -3,7 +3,7 @@ Code for research paper ["Using Synchronized Lyrics as a Novel Input into
 Vocal Isolation Models"](https://github.com/lankaraniamir/lyric_source_separation/blob/main/Using%20Synchronized%20Lyrics%20as%20a%20Novel%20Input%20into%20Vocal%20Isolation%20Models.pdf)
 
 
-## Project Summary:
+## Project Summary
 Source separation projects have typically only focused on using audio data
 as an input into the separation network, so this project tests whether or not
 other external information about the music can be used as a method to bolster
