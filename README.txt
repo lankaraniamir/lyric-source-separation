@@ -1,15 +1,9 @@
-a.
-UNI: al3625
-Name: Amir Lankarani
+# Lyric Source Separation
+Directory for research paper "Using Synchronized Lyrics as a Novel Input into
+Vocal Isolation Models"
 
-b. 5/7/2023
 
-c.
-Project Title: USING SYNCHRONIZED LYRICS AS A NOVEL
-    INPUT INTO VOCAL ISOLATION MODELS
-
-d.
-Project Summary:
+## Project Summary:
     Source separation projects have typically only focused on using audio data
 as an input into the separation network, so this project tests whether or not
 other external information about the music can be used as a method to bolster
@@ -40,8 +34,7 @@ be posteriorgrams and alignments that are predicted at the same frame
 rate as the spectrogram for a consistent correlation between the two.
 
 
-e.
-List of Tools
+## List of Tools Needed
     - Require Demucs to run my modified version of Demucs' automixing program
       as well as to do the initial source separation used to create more
       accurate posteriograms and alignments in Kaldi.
@@ -58,9 +51,12 @@ List of Tools
     good starting point to compare posteriogram addition to. Further additions
     were made using Pytorch.
     https://github.com/nussl/nussl
+    - High quality version of the musdb dataset standard for source separation
+    https://zenodo.org/record/3338373
+    - Annotations of the lyrics in each song of the Musdb dataset
+    https://zenodo.org/record/3989267
 
-f.
-Directories and executables
+## Directories and executables
     0. Create Conda environments
         - Build each conda environment from the yml files using:
 
@@ -153,29 +149,15 @@ Directories and executables
         - Run run_al3625.sh to get posteriorgrams and alignments and then run
         training scripts to train using this info on the original audio
 
-g.
-Main scripts
+## Main scripts to run
+    - setup conda environments with scripts above
     - run_al3625.sh - This script will first prep the musdb data, create remixes, prep
     the mashup data, and then prep the mashup data. Then it will go through each
     of the mono audio files and feed it into align_and_post_al3625 to get the
     alignments and posteriograms for that song
     - training_scripts - this is essentially our decoding step. Each are simple
-    ipynb notebooks that can simply be gone through in any way you liked. If you
-    would like to evaluate the model, skip the training function and run the
+    ipynb notebooks that can simply be gone through in any way you like. If you
     evaluation of the separation model. If you would like to create a model not
     from the checkpoint, simply comment out the loading and choose the unloaded
     option. If you would like to hear the audio and see the mask, run the
     visualization functions
-
-h.
-Datasets
-    - High quality version of the musdb dataset standard for source separation
-    https://zenodo.org/record/3338373
-    - Annotations of the lyrics in each song of the Musdb dataset
-    https://zenodo.org/record/3989267
-    - Other open source code mentioned above
-
-i.
-Python setup
--Use the suppplied conda environment and the pip requirement.txt to set up what
-is needed for the study.
