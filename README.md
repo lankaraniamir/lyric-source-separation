@@ -3,7 +3,7 @@ Code for research paper ["Using Synchronized Lyrics as a Novel Input into
 Vocal Isolation Models"](https://github.com/lankaraniamir/lyric_source_separation/blob/main/documents/Using%20Synchronized%20Lyrics%20as%20a%20Novel%20Input%20into%20Vocal%20Isolation%20Models.pdf)
 
 
-![alt text](https://github.com/lankaraniamir/lyric_source_separation/blob/main/documents/Concatenated%20Posteriorgram%20Plus%20Spectrogram.png?raw=true)
+![Concatenated Posteriorgram](https://github.com/lankaraniamir/lyric_source_separation/blob/main/documents/Concatenated%20Posteriorgram%20Plus%20Spectrogram.png?raw=true)
 
 
 ## Project Summary
